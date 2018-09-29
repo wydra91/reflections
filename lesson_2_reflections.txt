@@ -2,3 +2,10 @@ What happens when you initialize a repository? Why do you need to do it?
 
 Git creates a .git directory and stores the nessecary metadata to begin tracking changes.
 Note: You still need to run git commit in order to save your initial state.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is more like a "pending transactions" area that exists solely in the git metadata. It's
+used to track what files are about to be committed. It allows you to work on multiple files, and separate them into separate
+commits without too much hassle.
