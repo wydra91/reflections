@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git creates a .git directory and stores the nessecary metadata to begin tracking changes.
+Note: You still need to run git commit in order to save your initial state.
