@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It gave me a clear and concise way to see what had changed,
+without needing to spend a ton of brainpower looking in the details.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If I find that an old revision has something that I need in a newer revision, it will be much easier to impletment.
+Also, if I want to see how the project evolved, to get a better understanding of the reason the code is like that,
+it's fairly easy to go back and see how the code changed.
+
+What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+It varies, auto-saves could save stuff that doesn't make much sense. But you can also 
+completely forget to save something.
+
+Why do you think some version control systems, like Git, allow saving multiple files
+in one commit, while others, like Google Docs, treat each file separately?
+
+It mainly is a use-case dictacted reasoning. Word documents are self-contained files, they don't depend on other
+files to function. That being said, programs are very rarely one single file, dependencies change, and it all needs
+to be tracked.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Simply run git log to see recent commits and thier IDs and use git diff OLDID NEWID
+
+How might using version control make you more confident to make changes that could break something?
+
+You always know you can revert back to your last working config.
