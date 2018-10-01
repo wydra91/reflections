@@ -12,3 +12,8 @@ It's possible that you might make changes on the local repo, that would then be 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 Forks are essentially "unlinked copies" of repos on GitHub, clones are linked copies, and branches are offshoots of the master branch that are still related to the repo.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+I don't even really know, aside from the fact that it would make it easy to see what you have changed, compared to what was last online.
